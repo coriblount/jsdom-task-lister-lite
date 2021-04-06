@@ -14,7 +14,6 @@ let form = document.getElementById("create-task-form");
     let ul = document.getElementById('tasks')
     ul.append(li)
 
-    //<button onclick="myFunction()">Try it</button>
     let button = document.createElement('button')
     button.innerHTML = "Remove Task"
     button.addEventListener('click', function(e){
