@@ -15,7 +15,7 @@ let form = document.getElementById("create-task-form");
     ul.append(li)
 
     let button = document.createElement('button')
-    button.innerHTML = "Remove Task"
+    button.innerHTML = "Remove"
     button.addEventListener('click', function(e){
       ul.removeChild(ul.childNodes)
     })
